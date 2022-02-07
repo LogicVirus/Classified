@@ -1,0 +1,118 @@
+<HTML>
+	<HEADER>
+		<TITLE>Classified</TITLE>
+		<link rel="stylesheet" href="style.css">
+	</HEADER>
+	<BODY bgcolor=#000000 text=#ffffff background="images/">
+		<CENTER>
+			<P><H1><U>Launch Countdown</U></H1></P>
+		<p id="demo" style="font-size:250%; color:gold; border:2px solid red"></p>
+			<script>
+				
+				// Set the date we're counting down to
+				var countDownDate = new Date("June 20, 2022 16:20:00").getTime();
+
+				// Update the count down every 1 second
+				var x = setInterval(function() {
+
+				// Get today's date and time
+				var now = new Date().getTime();
+
+				// Find the distance between now and the count down date
+				var distance = countDownDate - now;
+
+				// Time calculations for days, hours, minutes and seconds
+				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+				// Display the result in the element with id="demo"
+				document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+				+ minutes + "m " + seconds + "s ";
+
+				// If the count down is finished, write some text
+				if (distance < 0) {
+					clearInterval(x);
+					document.getElementById("demo").innerHTML = "EXPIRED";
+				}
+				}, 1000);
+			</script>
+		<a data-flickr-embed="true" data-header="false" data-footer="true" href="https://www.flickr.com/photos/191854139@N02/51831233507/in/dateposted-public" title="Untitled"><img src="https://live.staticflickr.com/65535/51831233507_fdeb56a88e_o.jpg" width="720" height="480" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+			<br>
+			<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+	<div id="tradingview_6792e"></div>
+	<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSD/?exchange=BITSTAMP" rel="noopener" target="_blank"><span class="blue-text">BTCUSD Chart</span></a> by TradingView</div>
+	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+	<script type="text/javascript">
+	new TradingView.widget(
+	{
+	"width": 1200,
+	"height": 480,
+	"symbol": "BITSTAMP:BTCUSD",
+	"interval": "D",
+	"timezone": "Etc/UTC",
+	"theme": "dark",
+	"style": "1",
+	"locale": "en",
+	"toolbar_bg": "#f1f3f6",
+	"enable_publishing": false,
+	"allow_symbol_change": true,
+	"container_id": "tradingview_6792e"
+  }
+	);
+	</script>
+  </div>
+  <!-- TradingView Widget END -->
+		</CENTER>
+		<b>
+		<marquee>------><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=1s">CLICK ME</a>
+		</marquee>
+		<select name="clr" onchange="document.bgColor=this.options[this.selectedIndex].value" size="1">
+		<br>
+		<option value="black">black
+			<option value="orange">orange
+				<option value="flamingred">fuschia
+					<option value="lightyellow">light yellow
+						<option value="green">green
+							<option value="cyan">cyan
+								<option value="yellow">yellow
+									<option value="red">red
+										<option value="white">white</option>
+		</select>&nbsp;&nbsp;Background Color
+		<br>
+			<select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="1">
+		<br>
+		<option value="black">black
+			<option value="orange">orange
+				<option value="flamingred">fuschia
+					<option value="lightyellow">light yellow
+						<option value="cyan">cyan
+							<option value="yellow">yellow
+								<option value="red">red
+									<option value="white">white</option>
+		</select>&nbsp;&nbsp;Text Color
+		</b> <BR>
+			</table>
+			<form name="readout" method="post" data-netlify="true">
+				<ul>
+				 <li>
+				   <label for="name">Name:</label>
+				   <input type="text" id="name" name="user_name">
+				 </li>
+				 <li>
+				   <label for="mail">E-mail:</label>
+				   <input type="email" id="mail" name="user_email">
+				 </li>
+				 <li>
+				   <label for="msg">Message:</label>
+				   <textarea id="msg" name="user_message"></textarea>
+				 </li>
+				 <li> <center><input type="Submit" value="Submit"</center> 
+				</li>
+				</ul>
+			   </form>
+			   
+	</BODY>
+</HTML>
