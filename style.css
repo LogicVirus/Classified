@@ -66,3 +66,20 @@ form {
   h1 {
     color: red;
   }
+  #input_2 {
+
+    color : #000000;
+
+    background-color : #920505;
+
+    border : 3px solid;
+
+    font-family : Trebuchet MS;
+
+    font-size : 18px;
+
+    width : 90px;
+
+    height : 44px;
+
+}
