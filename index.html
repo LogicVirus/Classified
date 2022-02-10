@@ -1,11 +1,14 @@
 <HTML>
 	<HEADER>
 		<TITLE>Classified</TITLE>
+		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
+		<script scr="app.js"charset="utf-8"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</HEADER>
-	<BODY bgcolor=#000000 text=#ffffff background="images/">
+	<BODY bgcolor=#000000 text=#00FFFF background="images/">
 		<CENTER>
-			<P><H1><U>Launch Countdown</U></H1></P>
+			<P><H1 style="color:red"><U>Launch Countdown</U></H1></P>
 		<p id="demo" style="font-size:250%; color:gold; border:2px solid red"></p>
 			<script>
 				
@@ -48,7 +51,7 @@
 	<script type="text/javascript">
 	new TradingView.widget(
 	{
-	"width": 1200,
+	"width": 1000,
 	"height": 480,
 	"symbol": "BITSTAMP:BTCUSD",
 	"interval": "D",
@@ -67,33 +70,9 @@
   <!-- TradingView Widget END -->
 		</CENTER>
 		<b>
-		<marquee>------><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=1s">CLICK ME</a>
+		<marquee style="font-size:200%">------><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=1s">CLICK ME</a>
 		</marquee>
-		<select name="clr" onchange="document.bgColor=this.options[this.selectedIndex].value" size="1">
-		<br>
-		<option value="black">black
-			<option value="orange">orange
-				<option value="flamingred">fuschia
-					<option value="lightyellow">light yellow
-						<option value="green">green
-							<option value="cyan">cyan
-								<option value="yellow">yellow
-									<option value="red">red
-										<option value="white">white</option>
-		</select>&nbsp;&nbsp;Background Color
-		<br>
-			<select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="1">
-		<br>
-		<option value="black">black
-			<option value="orange">orange
-				<option value="flamingred">fuschia
-					<option value="lightyellow">light yellow
-						<option value="cyan">cyan
-							<option value="yellow">yellow
-								<option value="red">red
-									<option value="white">white</option>
-		</select>&nbsp;&nbsp;Text Color
-		</b> <BR>
+	
 			</table>
 			<form name="readout" method="post" data-netlify="true">
 				<ul>
@@ -113,6 +92,35 @@
 				</li>
 				</ul>
 			   </form>
+
+			   <label for="myfile">Select a file:</label>
+					<input type="file" id="myfile" name="myfile"> <BR>
+
+			   <select name="clr" onchange="document.bgColor=this.options[this.selectedIndex].value" size="1">
+				<br>
+				<option value="black">black
+					<option value="orange">orange
+						<option value="flamingred">fuschia
+							<option value="lightyellow">light yellow
+								<option value="green">green
+									<option value="cyan">cyan
+										<option value="yellow">yellow
+											<option value="red">red
+												<option value="white">white</option>
+				</select>&nbsp;&nbsp;Background Color
+				<br>
+					<select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="1">
+				<br>	
+				<option value="black">black
+					<option value="orange">orange
+						<option value="flamingred">fuschia
+							<option value="lightyellow">light yellow
+								<option value="cyan">cyan
+									<option value="yellow">yellow
+										<option value="red">red
+											<option value="white">white</option>
+				</select>&nbsp;&nbsp;Text Color
+				</b> <BR>
 			   
 	</BODY>
 </HTML>
