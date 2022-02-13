@@ -9,7 +9,7 @@
 	<BODY bgcolor=#000000 text=#AF0000 background="https://i.pinimg.com/originals/ed/99/87/ed9987942a1ed3fc8302942707d20b92.gif">
 		<CENTER>
 			<P><H1 style="color:red"><U>Launch Countdown</U></H1></P>
-		<p id="demo" style="font-size:250%; color:rgb(175, 0, 0); border:2px solid red"></p>
+		<p id="demo" style="font-size:250%; color:gold; border:2px solid red"></p>
 			<script>
 				
 				// Set the date we're counting down to
@@ -60,9 +60,9 @@
 				</li>
 				</ul>
 			   </form>
-				</b> <BR>
+				</b>
 					<!-- Add a placeholder for the Twitch embed -->
-				<div id="twitch-embed"></div>
+				<div id="twitch-embed">
 
 				<!-- Load the Twitch embed script -->
 				<script src="https://player.twitch.tv/js/embed/v1.js"></script>
@@ -70,9 +70,11 @@
 				<!-- Create a Twitch.Player object. This will render within the placeholder div -->
 				<script type="text/javascript">
 				new Twitch.Player("twitch-embed", {
+					height: "360px",
+					width: "100%",
 					channel: "joshp2013"
 				});
-				</script>
+				</script> </div>
 					<!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
 	<img src="https://hitwebcounter.com/counter/counter.php?page=7942202&style=0036&nbdigits=3&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>       
